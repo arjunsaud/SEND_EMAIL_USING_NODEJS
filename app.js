@@ -24,7 +24,7 @@ app.post('/sendEmail',(req,res)=>{
         res.send('Email Sent Successfully');
     }
     else{
-        res.send('Something Went Wrong');
+        res.send('Something Error');
     }
 })
 
